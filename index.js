@@ -24,6 +24,8 @@ mongoose.connect(
 
 /*** URL Shortener Microservice 
 *******************************/
+const Schema = mongoose.Schema;
+
 const urlSchema = new Schema(
   {
     original_url: {
