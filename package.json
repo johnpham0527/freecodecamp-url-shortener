@@ -1,0 +1,34 @@
+{
+  "name": "freecodecamp-url-shortener",
+  "version": "1.0.0",
+  "description": "This is an API project. It is a URL shortener microservice.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johnpham0527/freecodecamp-url-shortener.git"
+  },
+  "keywords": [
+    "API",
+    "URL",
+    "shortener",
+    "freecodecamp"
+  ],
+  "author": "John Pham",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/johnpham0527/freecodecamp-url-shortener/issues"
+  },
+  "homepage": "https://github.com/johnpham0527/freecodecamp-url-shortener#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "dotenv": "^8.2.0",
+    "mongoose": "^5.9.15",
+    "mongoose-sequence": "^5.2.2"
+  }
+}
