@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>URL Shortener Form</title>
+        <meta charset="UTF-8">
+        <meta name="description" content="A URL Shortener Project">
+        <meta name="keywords" content="Node, Express, Mongoose, URL Shortener">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
+    </head>
+    <body>
+        <div id="container">
+            <header role="banner">
+                <h1>URL Shortener Microservice</h1>
+            </header>
+    
+            <main role="main">
+                <article>
+                    <p>Sample URL: <a href="/api/shorturl/www.google.com">/api/shorturl/www.google.com</a></p>
+                </article>
+
+                <article>
+                    <form id="survey-form" action="/api/shorturl/new" method="post">
+                        <section class="form-section">
+                            <p>
+                                <label id="url-label" for="url" >What is your URL to shorten?</label>
+                                <abbr title="required" aria-label="required">*</abbr> 
+                                <input name="url" id="url" placeholder="http://www.yourwebsite.com" class="form-input" required>
+                            </p>
+                        </section>
+    
+                        <section class="form-submit">
+                            <input type="submit" id="submit" value="Submit Your Response">
+                        </section>
+                    </form>
+                </article>
+
+            </main>
+    
+            <footer role="contentinfo">
+                <small>&copy; Copyright 2020, John D. Pham</small>
+            </footer>
+        </div>
+    </body>
+</html>
